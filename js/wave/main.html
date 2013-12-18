@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wave</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src='jq.js'></script>
+	<script src="main.js" type="text/javascript"></script>
+	<style type="text/css">
+		#title{
+			width: 300px;
+			margin: 0 auto;
+		}
+		#spase{
+			border: 1px solid black;
+		}
+		.pixsel{
+			float: left;
+			background-color: blue;
+		}
+		[class^="row"]:after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<div id="title">Click on the square!</div>
+	<div id='spase' style="width: 300px; height: 300px; margin: 20px auto;"></div>
+</body>
+</html>

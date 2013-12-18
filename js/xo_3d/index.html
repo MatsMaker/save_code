@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8"/>
+      <title>XO_3d</title>
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <script type="text/javascript" src="jquery.js"></script>
+   </head>
+   <body>
+      <div class="board-top">
+         <div class="board-left">X</div>
+         <div class="board-right">O</div>
+         <div class="message"></div>
+      </div>
+      <div id="field" class="cube">
+         <div class="row">
+            <div class="cell c00">
+               <!--
+                <div class="lable">X</div>
+                <div class="lable-3d">X</div>
+                <div class="lable-shadow">X</div>
+               -->
+            </div>
+            <div class="cell c01"></div>                
+            <div class="cell c02"></div>
+         </div>
+         <div class="row">
+            <div class="cell c10">
+               <!--
+                <div class="lable">X</div>
+                <div class="lable-3d">X</div>
+                <div class="lable-shadow">X</div>
+               -->
+            </div>                          
+            <div class="cell c11">
+               <!--
+                <div class="lable">O</div>
+                <div class="lable-3d">O</div>
+                <div class="lable-shadow">O</div>
+               -->
+            </div>                          
+            <div class="cell c12"></div>
+         </div>
+         <div class="row">
+            <div class="cell c20"></div> 
+            <div class="cell c21"></div>
+            <div class="cell c22">
+               <!--
+                <div class="lable">X</div>
+                <div class="lable-3d">X</div>
+                <div class="lable-shadow">X</div>
+               -->
+            </div> 
+         </div>
+      </div>
+      <div id="map">
+         <div class="row">
+            <div class="cell-map" coorX="0" coorY="0"></div>
+            <div class="cell-map" coorX="1" coorY="0"></div>
+            <div class="cell-map" coorX="2" coorY="0"></div>
+            <div class="clear"></div>
+         </div>
+         <div class="row">
+            <div class="cell-map" coorX="0" coorY="1"></div>
+            <div class="cell-map" coorX="1" coorY="1"></div>
+            <div class="cell-map" coorX="2" coorY="1"></div>
+            <div class="clear"></div>
+         </div>
+         <div class="row">
+            <div class="cell-map" coorX="0" coorY="2"></div>
+            <div class="cell-map" coorX="1" coorY="2"></div>
+            <div class="cell-map" coorX="2" coorY="2"></div>
+            <div class="clear"></div>
+         </div>
+      </div>
+      <script type="text/javascript" src="xo_3d.js"></script>
+   </body>
+</html>
