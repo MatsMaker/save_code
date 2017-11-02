@@ -6,10 +6,28 @@
       <script type="text/javascript" src="main.js"></script>
    </head>
    <body>
-      <div style="position: absolute; top: 0; left:0; padding: 15px;">Key: </br>
-         <a href="snake/snake.html">Snake</a>
-      <a href="xo_3d/index.html">xo_3d</a>
-         <a href="wave/main.html">wave</a>
+      <div style="position: absolute; top: 0; left:0; padding: 15px;">Choose game: </br>
+        <ul class="game-list">
+          <li>
+            <a class="game-link" href="snake/snake.html">Snake</a>
+          </li>
+          <li>
+            <a class="game-link" href="xo_3d/index.html">xo_3d</a>
+          </li>
+          <li>
+            <a class="game-link" href="wave/main.html">wave</a>
+          </li>
+        </ul>
       </div>
    </body>
+   <style media="screen">
+     .game-list {
+       list-style-type: disc;
+     }
+     .game-link {
+       color: green;
+       font-style: bold;
+       text-decoration: none;
+     }
+   </style>
 </html>

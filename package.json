@@ -1,0 +1,24 @@
+{
+  "name": "small_games",
+  "version": "0.0.4",
+  "description": "easy games",
+  "main": "js/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatsMaker/small_games.git"
+  },
+  "keywords": [
+    "snake",
+    "wave",
+    "xo"
+  ],
+  "author": "MatsMaker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatsMaker/small_games/issues"
+  },
+  "homepage": "https://github.com/MatsMaker/small_games#readme"
+}
